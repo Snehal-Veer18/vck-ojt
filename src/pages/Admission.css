@@ -1,0 +1,87 @@
+.Admission-div {
+    height: 100%;
+
+}
+
+.Admisssion-container {
+    background-color: #fff;
+    width: 75%;
+    height: 75%;
+    margin: auto auto;
+    overflow-y: scroll;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.Admisssion-container h1{
+    color: blue;
+    text-align: center;
+}
+
+.Admisssion-container h2 {
+    color: rgb(55, 55, 55);
+}
+
+
+.admissions-table th {
+    background-color: #e9ecef;
+    font-weight: 700;
+    color: #343a40;
+}
+
+.admissions-table th,
+.admissions-table td {
+    border: 1px solid #DEE2E6;
+    padding: 12px;
+    text-align: left;
+    font-size: .95em;
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: -internal-center;
+    unicode-bidi: isolate;
+}
+
+.admissions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px #0000000d;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: initial;
+    border-spacing: 2px;
+}
+
+.page-container ol {
+    margin-left: 25px;
+    margin-bottom: 20px;
+    list-style-type: decimal;
+    color: #555;
+}
+
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+
+@media (max-width: 768px) {
+    .Admisssion-container {
+        width: 90%;
+    }
+}

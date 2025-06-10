@@ -1,0 +1,46 @@
+.Courses-div {
+    height: 100%;
+}
+
+.Courses-container {
+    background-color: #fff;
+    width: 75%;
+    height: 75%;
+    margin: auto auto;
+    overflow-y: scroll;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.Courses-container h2 {
+    color: rgb(55, 55, 55);
+}
+
+.admissions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #f8f9fa;
+    box-shadow: 0 2px 8px #0000000d;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: gray;
+}
+
+@media (max-width: 768px) {
+    .Courses-container {
+        width: 90%;
+    }
+}
