@@ -1,6 +1,7 @@
 import React from "react";
 import Header from "../components/Headers/Header";
 import "./Courses.css";
+import { Link } from "react-router-dom";
 
 const Courses = () => {
   return (
@@ -119,7 +120,7 @@ const Courses = () => {
         </p>
 
         <div className="btn-div">
-           <a href="/Contact"><button className="apply-btn">Inquire About Courses</button></a>
+           <Link href="/Contact"><button className="apply-btn">Inquire About Courses</button></Link>
         </div>
       </div>
   

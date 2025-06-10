@@ -4,6 +4,7 @@ import "./Home.css";
 import banner from "../assets/college-banner.png";
 import image1 from "../assets/students-studying.jpeg";
 import image2 from "../assets/campus-life.jpg";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -69,7 +70,7 @@ const Home = () => {
         <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
         <p className="btm-p">Ready to explore our courses?</p>
         <div class="btn-div">
-          <a href="/Admissions"><button>Explore Courses</button></a>
+          <Link href="/Admissions"><button>Explore Courses</button></Link>
         </div>
       </div>
     </div>
