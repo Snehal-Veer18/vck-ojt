@@ -64,8 +64,8 @@ const Home = () => {
         </ul>
         <h2>Campus Life & Facilities</h2>
         <div className="img-div">
-          <img src={image1} alt="image1" />
-          <img src={image2} alt="image2" />
+          <img src="/campus-life.jpg"/>
+          <img src="/students-studying.jpeg"/>
         </div>
         <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
         <p className="btm-p">Ready to explore our courses?</p>
