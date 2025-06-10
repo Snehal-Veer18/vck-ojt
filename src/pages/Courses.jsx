@@ -120,7 +120,7 @@ const Courses = () => {
         </p>
 
         <div className="btn-div">
-           <Link href="/Contact"><button className="apply-btn">Inquire About Courses</button></Link>
+           <Link to="/Contact"><button className="apply-btn">Inquire About Courses</button></Link>
         </div>
       </div>
   

@@ -70,7 +70,7 @@ const Home = () => {
         <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
         <p className="btm-p">Ready to explore our courses?</p>
         <div class="btn-div">
-          <Link href="/Admissions"><button>Explore Courses</button></Link>
+          <Link to="/Admissions"><button>Explore Courses</button></Link>
         </div>
       </div>
     </div>
