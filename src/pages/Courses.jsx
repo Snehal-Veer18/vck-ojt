@@ -23,7 +23,7 @@ const Courses = () => {
           width="100%"
           height="auto"
           class="course-video"
-          src="/video.mp4"
+          src="/Videos/video.mp4"
           type="video/mp4"
         >
           Your browser does not support the video tag.
