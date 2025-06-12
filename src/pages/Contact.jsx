@@ -55,7 +55,7 @@ const Contact = () => {
           library.]
         </p>
         <p>
-          <a href="#" target="_blank" rel="noopener noreferrer">
+          <a href="https://maps.google.com/?q=Vivekanand+College" target="_blank" rel="noopener noreferrer">
             View on Google Maps
           </a>
         </p>
