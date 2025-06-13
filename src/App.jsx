@@ -22,7 +22,7 @@ const App = () => {
           show={showPopup}
           onClose={handleClosePopup}
           studentName="Snehal Dilip Veer"
-          studentPhotoUrl="/Images/snehal.jpg" // Path to their photo
+          studentPhotoUrl="/Images/snehalveer.jpg" // Path to their photo
           uniqueMessage="Learned so much during this OJT! This app showcases my independent coding and deployment skills"
         />
       </div>
